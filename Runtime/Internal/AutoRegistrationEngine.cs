@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace MessagePipe.Internal
 {
-    internal static class AutowireEngine
+    internal static class AutoRegistrationEngine
     {
         public static IEnumerable<Type> CollectFromCurrentDomain()
         {
